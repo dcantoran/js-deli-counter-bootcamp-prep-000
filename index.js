@@ -13,12 +13,14 @@ function nowServing(currLine) {
 }
 
 function currentLine(line) {
+  var newLine = [];
   if (line.length === 0) {
     return "The line is currently empty.";
   }
   for (var i = 0; i < line.length; i ++) {
-    return `The ${line} is currently: ${line[index]}. ${line[i]}`;
+    newLine.push(" " + [i+1] + ". " + line[i])
   }
+  return "The line is currently:" + newLine;
 }
 
 
