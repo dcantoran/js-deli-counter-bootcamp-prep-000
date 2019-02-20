@@ -8,4 +8,9 @@ function nowServing(currLine) {
   if (currLine.length === 0) {
     return "There is nobody waiting to be served!";
   }
+  for (var i = 0; i < currLine.length; i ++) {
+    
+  }
 }
+
+
