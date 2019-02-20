@@ -9,9 +9,7 @@ function nowServing(currLine) {
     return "There is nobody waiting to be served!";
   }
   return `Currently serving ${currLine.shift()}.`
-  // for (var i = 0; i < currLine.length; i ++) {
-  //   return 
-  // }
+  
 }
 
 
